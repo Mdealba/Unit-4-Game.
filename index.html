@@ -4,20 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Taco Craze</title>
+
 </head>
 <body>
-
-
-<div>Target Score: <span id="target-score"></span></div>
-
-<div>Player Score: <span id="player-score"></span></div>
-<div id="asada">
-    <img src=".../assests/images/asada.jpg" />
-</div>
-
+    <div class="wrap">
+            <h1>Taco Craze</h1>
+            <h3>Hit the Target Number and win a Cold Beer to go with your yummy tacos.</h3>
+            <div><h3 id="message"></h3></div>
+        <div>
+            <p>Wins: <span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>
+        </div>
+        
+        <div>
+             <p> Target number: <span id="target"></span>
+             </p>
+        </div>
+        
+        <div> <p>total: <span id="total"></span></p></div>
+        <div>
+            <div id="btn1" class="button">
+                <img src="assets/images/alpastor-taco.jpg" alt="Alpastor Taco" />
+            </div>
+            <div id="btn2"  class="button">
+                <img src="assets/images/carnitas-taco.jpg">
+            </div>
+            <div id="btn3"  class="button">
+                <img src="assets/images/chorizo-tacos.jpg"/>
+            </div>
+            <div id="btn4"  class="button">
+                <img src="assets/images/asada-taco.jpg" />
+            </div>
+        </div>
+    </div>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="logic.js"></script>
-
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background: url(https://images.unsplash.com/photo-1518208398353-f3cdc7e2b593?ixlib=rb-0.3.5&s=540414f4895c8633ce32f9761c294dda&auto=format&fit=crop&w=682&q=80) no-repeat bottom fixed;
+    color:white;
+    background-size: cover;
+    /* font-family: sans-serif; */
+    font-size: 18px;
+}
+
+img {
+    width: 100px;
+}
+
+.button {
+   display: inline-block;
+    height:65px;
+    margin: 4px;
+    cursor: pointer;
+    
+
+}
+.button img {
+    height: 100%;
+    max-width: 100%;
+    background-color: red;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.wrap {
+    padding-right: 20%;
+}
