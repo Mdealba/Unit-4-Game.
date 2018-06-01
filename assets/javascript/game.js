@@ -84,12 +84,12 @@ break;
 
 function handleLosses(){
     data.losses++;
-    $("#message").text("you lose!");
+    $("#message").text("Sorry NO Beer for you!");
     resetGame();
 }
 function handleWins(){
     data.wins++;
-    $("#message").text("you win!");
+    $("#message").text("Success!!! A Cold Beer is on its way!!!");
     resetGame();
 }
 function resetGame(){
@@ -99,9 +99,3 @@ function resetGame(){
     assignGemValues();
     displayHTML();
 }
-
-// handles wins and losses
-
-// function that handles wins
-
-// function that handles losses
